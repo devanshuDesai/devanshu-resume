@@ -1,0 +1,243 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Devanshu}{Desai}{
+Ranked \#1 Python Programmer on HackerRank\\
+\urlstyle{same}
+\href{https://github.com/devanshuDesai}{https://github.com/devanshuDesai} | (408) 230 - 7887 | \href{mailto:dbdesai@ucsd.edu}{dbdesai@ucsd.edu}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{University of California}
+\descript{Bachelor of Science in Data Science}
+\location{March 2021| San Diego, CA}
+Magna Cum Laude\\
+\location{ Cum. GPA: 3.87 / 4.0 \\
+Major GPA: 3.96 / 4.0}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+Github:// \href{https://github.com/devanshuDesai}{\bf devanshuDesai} \\
+LinkedIn://  \href{https://www.linkedin.com/in/devanshu-desai-b42659169/}{\bf devanshu-desai-b42659169/} \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Recommender Systems\\
+Advanced Deep Learning\\
+Computational Evolutionary Biology\\
+Probabilistic Graphical Models\\
+\sectionsep
+
+\subsection{Undergraduate}
+Computer Vision\\
+Scalable Systems For Data Analytics\\
+IoT Systems For Data Analytics\\
+{\footnotesize \textit{\textbf{(Quarter-long project) }}} \\
+Theoretical Foundations of Data Science\\
+{\footnotesize \textit{\textbf{(Teaching Assistant x7) }}} \\
+Data Structures And Algorithms\\
+{\footnotesize \textit{\textbf{(Teaching Assistant x1) }}} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+
+\location{\textbf{Expert}}
+Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \LaTeX\ \\
+\location{Proficient}
+C++ \textbullet{} React \textbullet{} \\
+
+\location{Intermediate}
+iOS \textbullet{} Android \textbullet{} MySQL
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Nanome Inc.}
+\descript{Data Scientist}
+\location{Jan 2020 - Present | San Diego, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \emph{Developed} a novel deep-learning based approach to address the company's voice recognition needs.
+\item \emph{Pioneered} an alpha build for the company platform's $1^{st}$ attempt at a voice command assistant for the platform.
+\item \emph{Reduced} server latency for voice responses by 75\% compared to on-device recognition for Oculus devices.
+\item \emph{Improved} command hit rate by 12\% using an implementation of \textbf{LSTM-based DeepSpeech} and \textbf{BERT embeddings}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Metrim Data}
+\descript{Data Scientist / Co-Founder}
+\location{Nov 2017 – Oct 2019 | San Diego, CA}
+\begin{tightemize}
+\item \emph{Devised} a novel method using \textbf{Recurrent Neural Networks} and \textbf{Variational Autoencoders} for target prediction.
+\item \emph{Optimized} our inference models to run on \textbf{Google Cloud TPUs} instead of multiple GPUs
+\item \emph{Observed} a in 4x speed in inference times and a 3x speed up in training times as a result of the aforementioned optimizations.
+\item {Developed} an end-to-end data ingestion and \textbf{ETL pipeline} to run on 10 terabytes of data from the Common Crawl dataset.
+\item Extracted features for lead prediction were stored in a MySQL database to be queried with a \textbf{REST API} by our front-end.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{UC San Diego}
+\descript{Instructional Assistant}
+\location{Jan 2018 - Present | San Diego, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \emph{Automated} style checks for DSC 20 which directly resulted in over 500+ tutor hours saved in the last 2 years as well as saving the Data Science department over \textbf{USD \$10,000} in tutor salaries.
+\item \emph{Implemented} a linear regression based runtime check in DSC 40B which has so far resulted in 20+ hours of manual grading saved for the tutors along with direct cost savings for the department.
+\item \emph{Created} several homework and exam solutions to administer the coursework effectively and uphold the value of a UCSD degree.
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{McAuley Lab}
+\descript{Undergraduate Research Scholar}
+\location{Dec 2020 – Present | San Diego, CA}
+\begin{tightemize}
+\item \emph{Collaborated} with post-doctoral researchers in \textbf{\href{https://scholar.google.com/citations?user=1P8Zu04AAAAJ}{Hao Su}}.
+\item \emph{Customized} \textbf{Facebook AI Research}'s \emph{\href{https://arxiv.org/abs/1904.09664}{VoteNet}} model to work on a custom dataset.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Su Lab}
+\descript{| Research Assistant}
+\location{Jan 2020 – April 2020 | San Diego, CA}
+\begin{tightemize}
+\item \emph{Collaborated} with post-doctoral researchers in \textbf{\href{https://scholar.google.com/citations?user=1P8Zu04AAAAJ}{Hao Su}}.
+\item \emph{Customized} \textbf{Facebook AI Research}'s \emph{\href{https://arxiv.org/abs/1904.09664}{VoteNet}} model to work on a custom dataset.
+\item \emph{Augmented} the \emph{\href{https://cs.stanford.edu/~kaichun/partnet/}{PartNet}} dataset to perform better with our model which resulted in a 1.5\% improvement in classification accuracy.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Awards}
+%\begin{tabular}{rll}
+%2014	     & top 52/2500  & KPCB Engineering Fellow\\
+%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+%2013	     & National  & Jump Trading Challenge Finalist\\
+%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%\end{tabular}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Publications}
+%\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+%\nocite{*}
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
