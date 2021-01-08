@@ -47,6 +47,7 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
+\usepackage{wasysym}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -68,7 +69,7 @@
 \namesection{Devanshu}{Desai}{
 Ranked \#1 Python Programmer on HackerRank\\
 \urlstyle{same}
-\href{https://github.com/devanshuDesai}{https://github.com/devanshuDesai} | (408) 230 - 7887 | \href{mailto:dbdesai@ucsd.edu}{dbdesai@ucsd.edu}
+\href{https://github.com/devanshuDesai}{github.com/devanshuDesai} | (408) 230 - 7887 | \href{mailto:dbdesai@ucsd.edu}{dbdesai@ucsd.edu}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -95,12 +96,30 @@ Major GPA: 3.96 / 4.0}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+% \subsection{Programming}
+
+\location{\textbf{Expert}}
+Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript
+\textbullet \LaTeX\ \\
+\location{Proficient}
+C++ \textbullet{} React \textbullet{} \\
+
+\location{Intermediate}
+iOS \textbullet{} Android \textbullet{} MySQL
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links}
-Github:// \href{https://github.com/devanshuDesai}{\bf devanshuDesai} \\
-LinkedIn://  \href{https://www.linkedin.com/in/devanshu-desai-b42659169/}{\bf devanshu-desai-b42659169/} \\
+% \section{Links}
+% Github:// \href{github.com/devanshuDesai}{\bf devanshuDesai} \\
+% LinkedIn://  \href{linkedin.com/in/devanshu-desai-b42659169/}{\bf devanshu-desai-b42659169/} \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,22 +143,6 @@ Theoretical Foundations of Data Science\\
 {\footnotesize \textit{\textbf{(Teaching Assistant x7) }}} \\
 Data Structures And Algorithms\\
 {\footnotesize \textit{\textbf{(Teaching Assistant x1) }}} \\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-\subsection{Programming}
-
-\location{\textbf{Expert}}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \LaTeX\ \\
-\location{Proficient}
-C++ \textbullet{} React \textbullet{} \\
-
-\location{Intermediate}
-iOS \textbullet{} Android \textbullet{} MySQL
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -175,7 +178,8 @@ iOS \textbullet{} Android \textbullet{} MySQL
 \item \emph{Devised} a novel method using \textbf{Recurrent Neural Networks} and \textbf{Variational Autoencoders} for target prediction.
 \item \emph{Optimized} our inference models to run on \textbf{Google Cloud TPUs} instead of multiple GPUs
 \item \emph{Observed} a 4x improvement in inference times and a 3x speed up in training times as a result of the aforementioned optimizations.
-\item {Developed} an end-to-end data ingestion and \textbf{ETL pipeline} to run on 10 terabytes of data from the Common Crawl dataset.
+\item {Engineered} an end-to-end data ingestion and \textbf{ETL pipeline} to
+    run on 10 TB of data from the Common Crawl dataset.
 \item Extracted features for led prediction were stored in a MySQL database to be queried with a \textbf{REST API} by our front-end.
 \end{tightemize}
 \sectionsep
@@ -185,7 +189,9 @@ iOS \textbullet{} Android \textbullet{} MySQL
 \location{Jan 2018 - Present | San Diego, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item \emph{Automated} style checks for DSC 20 which directly resulted in over 500+ tutor hours saved in the last 2 years as well as saving the Data Science department over \textbf{USD \$10,000} in tutor salaries.
+\item \emph{Automated} style checks for DSC 20 which directly resulted in over
+    500+ tutor hours saved in the last 2 years as well as saving the Data
+    Science department over \textbf{USD \$10,000} in tutor compensation.
 \item \emph{Implemented} a linear regression based runtime check in DSC 40B which has so far resulted in 20+ hours of manual grading saved for the tutors along with direct cost savings for the department.
 \item \emph{Created} several homework and exam solutions to administer the coursework effectively and uphold the value of a UCSD degree.
 \end{tightemize}
@@ -199,8 +205,10 @@ iOS \textbullet{} Android \textbullet{} MySQL
 \descript{Undergraduate Research Scholar}
 \location{Dec 2020 – Present | San Diego, CA}
 \begin{tightemize}
-\item \emph{Collaborated} with post-doctoral researchers in \textbf{\href{https://scholar.google.com/citations?user=1P8Zu04AAAAJ}{Hao Su}}.
-\item \emph{Customized} \textbf{Facebook AI Research}'s \emph{\href{https://arxiv.org/abs/1904.09664}{VoteNet}} model to work on a custom dataset.
+\item \emph{Collaborated} with post-doctoral researchers under \textbf{\href{https://scholar.google.com/citations?user=1P8Zu04AAAAJ}{Hao Su}}.
+\item \emph{Customized} \textbf{Facebook AI Research}'s
+    \emph{\href{https://arxiv.org/abs/1904.09664}{VoteNet}} model to work on a
+    novel dataset.
 \end{tightemize}
 \sectionsep
 
@@ -210,7 +218,9 @@ iOS \textbullet{} Android \textbullet{} MySQL
 \begin{tightemize}
 \item \emph{Collaborated} with post-doctoral researchers in \textbf{\href{https://scholar.google.com/citations?user=1P8Zu04AAAAJ}{Hao Su}}.
 \item \emph{Customized} \textbf{Facebook AI Research}'s \emph{\href{https://arxiv.org/abs/1904.09664}{VoteNet}} model to work on a custom dataset.
-\item \emph{Augmented} the \emph{\href{https://cs.stanford.edu/~kaichun/partnet/}{PartNet}} dataset to perform better with our model which resulted in a 1.5\% improvement in classification accuracy.
+\item \emph{Augmented} the
+    \emph{\href{https://cs.stanford.edu/~kaichun/partnet/}{PartNet}} dataset to
+    perform better with our model resulting in a 1.5\% improvement in classification accuracy.
 \end{tightemize}
 \sectionsep
 
