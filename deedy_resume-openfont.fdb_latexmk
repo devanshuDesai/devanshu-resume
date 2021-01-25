@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1611265340 "deedy_resume-openfont.tex" "deedy_resume-openfont.pdf" "deedy_resume-openfont" 1611265341
+["pdflatex"] 1611606396 "deedy_resume-openfont.tex" "deedy_resume-openfont.pdf" "deedy_resume-openfont" 1611606398
   "/etc/texmf/web2c/texmf.cnf" 1603235318 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -72,11 +72,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1603235480 3372874 59ef48a28972775df0f70b106403b0ae ""
   "deedy-resume-openfont.cls" 1608889666 2842 89ca2838e8041d85b05c45557a4c9a67 ""
-  "deedy_resume-openfont.aux" 1611265340 2001 850250b5be6d178237513e669d0190e3 "pdflatex"
-  "deedy_resume-openfont.out" 1611265340 668 39ab170e5960525ed2babac67880858d "pdflatex"
-  "deedy_resume-openfont.tex" 1611265338 9199 b33140465481c927af677674c7e27f46 ""
+  "deedy_resume-openfont.aux" 1611606397 2110 c1d529dbc23ffb1f05d78c76dd3a9e44 "pdflatex"
+  "deedy_resume-openfont.out" 1611606397 716 87a2898d213a88ad3457e4f00ca58cfc "pdflatex"
+  "deedy_resume-openfont.tex" 1611606382 9285 610c7963ca20063d0344ef91ae88a9b9 ""
+  "imgs/github.png" 1611261879 2859 a580c5caa5889937a5f7b6f21562e2c0 ""
+  "imgs/linkedin.png" 1611262011 4699 1a9291b12d642cb2fa8aa8fbef5c7be1 ""
   (generated)
   "deedy_resume-openfont.out"
-  "deedy_resume-openfont.pdf"
   "deedy_resume-openfont.log"
   "deedy_resume-openfont.aux"
+  "deedy_resume-openfont.pdf"

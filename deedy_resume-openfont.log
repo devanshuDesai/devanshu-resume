@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.20)  21 JAN 2021 13:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.10.20)  25 JAN 2021 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -587,13 +587,17 @@ ge=dflt;"
 (fontspec)             <->"[fonts/raleway/Raleway-Medium]/OT:script=latn;langua
 ge=dflt;+smcp;"
 
+File: imgs/github.png Graphic file (type bmp)
+<imgs/github.png>
+File: imgs/linkedin.png Graphic file (type bmp)
+<imgs/linkedin.png>
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/m/sc' undefined
-(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 91.
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 94.
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(1)/m/sc' undefined
-(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 91.
+(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
@@ -614,46 +618,46 @@ Package fontspec Info: Font family 'Lato-Bol(0)' created for font 'Lato-Bol'
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Bol(0)/b/n' undefined
-(Font)              using `TU/Lato-Bol(0)/m/n' instead on input line 93.
+(Font)              using `TU/Lato-Bol(0)/m/n' instead on input line 96.
 
 
 LaTeX Font Warning: Font shape `TU/Raleway-Medium(0)/b/n' undefined
-(Font)              using `TU/Raleway-Medium(0)/m/n' instead on input line 109.
+(Font)              using `TU/Raleway-Medium(0)/m/n' instead on input line 112.
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
+(Font)              <5> on input line 114.
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 11
-1.
+4.
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
  [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
 
 (./deedy_resume-openfont.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `deedy_resume-openfont.out' has not changed.
-(rerunfilecheck)             Checksum: 39AB170E5960525ED2BABAC67880858D;668.
+(rerunfilecheck)             Checksum: 87A2898D213A88AD3457E4F00CA58CFC;716.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 12959 strings out of 481772
- 244421 string characters out of 5936450
- 562827 words of memory out of 5000000
- 29761 multiletter control sequences out of 15000+600000
+ 12981 strings out of 481772
+ 244681 string characters out of 5936450
+ 562895 words of memory out of 5000000
+ 29771 multiletter control sequences out of 15000+600000
  533748 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 54i,11n,120p,390b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,120p,390b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on deedy_resume-openfont.pdf (1 page).

@@ -139,6 +139,8 @@ INPUT deedy_resume-openfont.out
 INPUT ./deedy_resume-openfont.out
 INPUT ./deedy_resume-openfont.out
 OUTPUT deedy_resume-openfont.out
+INPUT imgs/github.png
+INPUT imgs/linkedin.png
 INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
