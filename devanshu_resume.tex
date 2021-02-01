@@ -55,6 +55,19 @@
 \pagestyle{fancy}
 \fancyhf{}
 
+\ifxetex
+  \usepackage{letltxmacro}
+  \setlength{\XeTeXLinkMargin}{1pt}
+  \LetLtxMacro\SavedIncludeGraphics\includegraphics
+  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
+    \IncludeGraphicsAux{#1}%
+  }%
+  \newcommand*{\IncludeGraphicsAux}[2]{%
+    \XeTeXLinkBox{%
+      \SavedIncludeGraphics#1{#2}%
+    }%
+  }%
+\fi
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,7 +88,7 @@ Ranked \#1 Python Programmer on HackerRank\\
 % \href{https://github.com/devanshuDesai}{github.com/devanshuDesai} 
 \href{https://github.com/devanshuDesai}{\includegraphics[scale=0.1]{imgs/github.png}}
 |
-\href{https://github.com/devanshuDesai}{\includegraphics[scale=0.04]{imgs/linkedin.png}} 
+\href{https://linkedin.com/in/dbdesai-data}{\includegraphics[scale=0.04]{imgs/linkedin.png}} 
 | (408) 230 - 7887 | \href{mailto:dbdesai@ucsd.edu}{dbdesai@ucsd.edu}
 }
 
