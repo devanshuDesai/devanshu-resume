@@ -15,7 +15,12 @@ GRADUATE
 Recommender Systems Advanced Deep Learning Computational Evolutionary Biology Probabilistic Graphical Models
 
 NANOME INC. Data Scientist
-Jan 2020 - Present | San Diego, CA · Developed a novel deep-learning based approach to address the company's voice recognition needs. · Pioneered an alpha build for the company platform's 1st attempt at a voice command assistant for the platform. · Reduced server latency for voice responses by 75% compared to on-device recognition for Oculus devices. · Improved command hit rate by 12% using an implementation of LSTM-based DeepSpeech and BERT embeddings.
+Jan 2020 - Present | San Diego, CA 
+· Developed a novel deep-learning based approach to address the company's voice recognition needs. 
+· Pioneered an alpha build for the company platform's 1st attempt at a voice command assistant for the platform.
+· Reduced server latency for voice responses by 75% compared to on-device recognition for Oculus devices.
+· Improved command hit rate by 12% using an implementation of LSTM-based DeepSpeech and BERT embeddings.
+
 METRIM DATA Data Scientist / Co-Founder
 Nov 2017 ­ Oct 2019 | San Diego, CA
 · Devised a novel method using Recurrent Neural Networks and Variational Autoencoders for target prediction.
@@ -69,7 +74,7 @@ Magna Cum Laude - UCSD
 
 PUBLICATIONS
 
-dataset. · Augmented the PartNet dataset to perform better with our model resulting in a
+· Augmented the PartNet dataset to perform better with our model resulting in a dataset. 
 
 Dive Into Data Science
 
