@@ -1,0 +1,116 @@
+Devanshu Desai
+Ranked #1 Python Programmer on HackerRank
+|
+
+| (408) 230 - 7887 | dbdesai@ucsd.edu
+
+EDUCATION
+
+EXPERIENCE
+
+UNIVERSITY OF CALIFORNIA
+
+NANOME INC. Data Scientist
+
+Bachelor of Science in Data
+Science
+
+Jan 2020 - Present | San Diego, CA
+• Developed a novel deep-learning-based approach to address the company’s
+voice recognition needs.
+• Pioneered an alpha build for the company platform’s 1st attempt at a voice
+command assistant for the platform.
+• Reduced server latency for voice responses by 75% compared to on-device
+recognition for Oculus devices.
+• Improved command hit rate by 12% using an implementation of LSTM-based
+DeepSpeech and BERT embeddings.
+
+June 2021| San Diego, CA
+Magna Cum Laude
+Cum. GPA: 3.87 / 4.0
+Major GPA: 3.96 / 4.0
+
+SKILLS
+Expert
+Java • Shell • Python • Javascript •LATEX
+Proficient
+C++ • React •
+Intermediate
+iOS • Android • MySQL
+
+COURSEWORK
+GRADUATE
+Recommender Systems
+Advanced Deep Learning
+Computational Evolutionary Biology
+Probabilistic Graphical Models
+
+UNDERGRADUATE
+Computer Vision
+Scalable Systems For Data Analytics
+IoT Systems For Data Analytics
+(Quarter-long project)
+
+Theoretical Foundations of Data Science
+(Teaching Assistant x7)
+
+Data Structures And Algorithms
+(Teaching Assistant x1)
+
+ACHIEVEMENTS
+COMPETITIVE ML
+Winner - Semi-Supervised MNIST
+(Kaggle)
+1st Runner up - UCSD Datathon 2020
+
+COMPETITIVE PROGRAMMING
+Rank 1 - HackerRank Python Challenge
+
+SCHOLARSHIPS
+Undergraduate Research Scholar Halicoglu Data Science Institute
+Provost Honors - UCSD
+Magna Cum Laude - UCSD
+
+PUBLICATIONS
+Dive Into Data Science
+
+METRIM DATA Data Scientist
+Nov 2017 – Oct 2019 | San Diego, CA
+• Devised a novel method using Recurrent Neural Networks and Variational
+Autoencoders for target prediction.
+• Optimized our inference models to run on Google Cloud TPUs instead of
+multiple GPUs
+• Observed a 4x improvement in inference times and a 3x speedup in training
+times as a result of the aforementioned optimizations.
+• Engineered end-to-end data ingestion and ETL pipeline to run on 10 TB of data
+from the Common Crawl dataset.
+• Extracted features for lead prediction were stored in a MySQL database to be
+queried with a REST API by our front-end.
+
+UC SAN DIEGO Instructional Assistant
+Jan 2019 - Present | San Diego, CA
+• Automated style checks for DSC 20 which directly resulted in over 500+ tutor
+hours saved in the last 2 years as well as saving the Data Science department
+over USD $10,000 in tutor compensation.
+• Implemented a linear regression-based runtime check-in DSC 40B which has so
+far resulted in 20+ hours of manual grading saved for the tutors along with
+direct cost savings for the department.
+• Created several homework and exam solutions to administer the coursework
+effectively and uphold the value of a UCSD degree.
+
+RESEARCH
+MCAULEY LAB Undergraduate Research Scholar
+Dec 2020 – Present | San Diego, CA
+• Optimized Recommender Systems to using Facebook AI Research’s state of the
+art benchmarking platform.
+• Mentored under Julian McAuley.
+
+SU LAB | Research Assistant
+Jan 2020 – April 2020 | San Diego, CA
+• Collaborated with post-doctoral researchers in Hao Su.
+• Customized Facebook AI Research’s VoteNet model to work on a custom
+dataset.
+• Augmented the PartNet dataset to perform better with our model resulting in a
+1.5% improvement in classification accuracy.
+
+
