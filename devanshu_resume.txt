@@ -10,7 +10,7 @@ EXPERIENCE
 
 UNIVERSITY OF CALIFORNIA
 
-NANOME INC. Data Scientist
+NANOME INC. Machine Learning Intern
 
 Bachelor of Science in Data
 Science
@@ -61,7 +61,7 @@ ACHIEVEMENTS
 COMPETITIVE ML
 Winner - Semi-Supervised MNIST
 (Kaggle)
-1st Runner up - UCSD Datathon 2020
+Winner - UCSD Datathon 2021
 
 COMPETITIVE PROGRAMMING
 Rank 1 - HackerRank Python Challenge
@@ -88,7 +88,7 @@ from the Common Crawl dataset.
 queried with a REST API by our front-end.
 
 UC SAN DIEGO Instructional Assistant
-Jan 2019 - Present | San Diego, CA
+Sept 2018 - Present | San Diego, CA
 • Automated style checks for DSC 20 which directly resulted in over 500+ tutor
 hours saved in the last 2 years as well as saving the Data Science department
 over USD $10,000 in tutor compensation.
